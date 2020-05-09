@@ -430,7 +430,8 @@ class CameraActivity : AppCompatActivity() {
                     }
 
             // Here, we create a CameraCaptureSession for camera preview.
-            cameraDevice?.createCaptureSession(Arrays.asList(surface, imageReader?.surface),
+            cameraDevice?.createCaptureSession(
+                Arrays.asList(surface, imageReader?.surface),
                 object : CameraCaptureSession.StateCallback() {
 
                     override fun onConfigured(cameraCaptureSession: CameraCaptureSession) {
