@@ -11,7 +11,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tvVersion.text = "Version Code: ${BuildConfig.VERSION_CODE}\nVersion Name: ${BuildConfig.VERSION_NAME}\nFlavor: ${BuildConfig.FLAVOR}"
+        tvVersion.text = "Version Code: ${BuildConfig.VERSION_CODE}" +
+                "Version Name: ${BuildConfig.VERSION_NAME}" +
+                "Flavor: ${BuildConfig.FLAVOR}" +
+                "BuildType ${BuildConfig.BUILD_TYPE}"
     }
 
     fun openCamera(v:View) {
