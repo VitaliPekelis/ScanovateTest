@@ -12,8 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun openCamera(v:View)
-    {
+    fun openCamera(v:View) {
         val intent = Intent(this, CameraActivity::class.java)
         startActivity(intent)
     }
