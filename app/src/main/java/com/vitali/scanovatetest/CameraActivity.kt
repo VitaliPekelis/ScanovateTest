@@ -247,9 +247,7 @@ class CameraActivity : AppCompatActivity() {
         ) {
             process(result)
         }
-
     }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
