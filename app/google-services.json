@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "940817628079",
+    "firebase_url": "https://scanovatetest.firebaseio.com",
+    "project_id": "scanovatetest",
+    "storage_bucket": "scanovatetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940817628079:android:814c68cb43db8970ad4d5a",
+        "android_client_info": {
+          "package_name": "com.vitali.scanovatetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940817628079-iqa9h51lvm0hf7hfg3k2n4gebg10t9o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzgSYeOxHE7nevfo6yXOQDBWcXVgRR6jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940817628079-iqa9h51lvm0hf7hfg3k2n4gebg10t9o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

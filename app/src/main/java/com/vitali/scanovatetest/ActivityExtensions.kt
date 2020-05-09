@@ -16,8 +16,8 @@
 
 package com.vitali.scanovatetest
 
-import android.support.v4.app.FragmentActivity
-import android.support.v4.content.ContextCompat
+import androidx.fragment.app.FragmentActivity
+import androidx.core.content.ContextCompat
 import android.widget.Toast
 
 /**
