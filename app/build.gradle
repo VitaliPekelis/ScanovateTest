@@ -12,7 +12,7 @@ android {
         applicationId "com.vitali.scanovatetest"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
+        versionCode 24
         versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
